@@ -23,7 +23,7 @@ def generate_iot_csv():
     # Introduce "Bad Data" to test validation (temp > 50)
     df.loc[0, 'temp'] = 100
 
-    filename = f"data/iot_readings_{int(time.time())}.csv"
+    filename = f"pipeline_project/data/iot_readings_{int(time.time())}.csv"
     df.to_csv(filename, index=False)
     print(f"Generated: {filename}")
 
