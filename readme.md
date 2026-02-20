@@ -60,6 +60,9 @@ Bash
 python generate_data.py
 Monitor the terminal logs and check your PostgreSQL database to verify data ingestion.
 
+I have used the data set from kaggle https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k
+and also uploaded a small dataset file from the same with some errors named Test_with _error
+
 3. Scalability for Production
 While this solution processes files in a single local folder, it can be redesigned to scale horizontally to handle millions of files or data points per day.
 
